@@ -1,0 +1,26 @@
+﻿@model BDLab3.Models.Education
+
+@{
+    ViewBag.Title = "CreateEdu";
+}
+    <div class="h4" align=" center">
+        <font>
+            @using (Html.BeginForm())
+            {
+                <h2>Создание образования</h2>
+                <br />
+                <fieldset>
+                    @Html.LabelFor(model => model.Name, "Категория образования: ")
+                    @Html.EditorFor(model => model.Name)
+                    <br />
+                    <br />
+                    <input type="submit" value=" Добавить " />
+                    <br />
+                    <br />
+                </fieldset>
+            }
+        </font>
+        <br />
+        @Html.ActionLink("Вернуться назад", "Educations")
+    </div>
+

@@ -1,0 +1,26 @@
+﻿@model BDLab3.Models.Specialty
+
+@{
+    ViewBag.Title = "CreateSpec";
+}
+    <div class="h4" align=" center">
+        <font>
+            @using (Html.BeginForm())
+            {
+                <h2>Создание специальности</h2>
+                <br />
+                <fieldset>
+                    @Html.LabelFor(model => model.Name, "Название специальности: ")
+                    @Html.EditorFor(model => model.Name)
+                    <br />
+                    <br />
+                    <input type="submit" value=" Добавить " />
+                    <br />
+                    <br />
+                </fieldset>
+            }
+        </font>
+        <br />
+        @Html.ActionLink("Вернуться назад", "Specialise")
+    </div>
+

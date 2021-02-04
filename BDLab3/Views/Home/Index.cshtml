@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Компания World-Company!</h1>
+    <p class="lead">На этой странице ведется учет всех сотрудников нашей компании.</p>
+</div>
+
+<div class="row">
+
+    <div class="col-md-4">
+        <h2>Хочу знать!</h2>
+        <p>О должностях</p>
+        <p>О отделах</p>
+        <p>О образовании</p>
+        <p>О специальностях</p>
+        <p>О штрафах</p>
+        <p><a class="btn btn-default" href="@Url.Action("WantKnow")">Подробно &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Cервисы</h2>
+        <p>Сумма ЗП сотрудников</p>
+        <p>Минимальная ЗП среди сотрудников</p>
+        <p>Максимальная ЗП среди сотрудников</p>
+        <p>Средняя ЗП сотрудников</p>
+        <p>Сумма штрафов сотрудников</p>
+        <p><a class="btn btn-default" href="@Url.Action("Services")">Подробно &raquo;</a></p>
+        <br />
+        <br />
+    </div>
+    <div class="col-md-4">
+        <h2>Поиск</h2>
+        <p>C определенной зп</p>
+        <p>C штрафом более:</p>
+        <p>C образованием </p>
+        <p>C специальностью</p>
+        <p>C должностью:</p>
+        <p><a class="btn btn-default" href="@Url.Action("Search")">Подробно &raquo;</a></p>
+        <br />
+        <br />
+    </div>
+
+</div>

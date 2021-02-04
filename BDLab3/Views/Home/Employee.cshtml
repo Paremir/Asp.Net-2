@@ -1,0 +1,84 @@
+﻿@model List<BDLab3.Models.Employee>
+
+@{
+    ViewBag.Title = "Employee";
+}
+
+<h2>Сотрудники:</h2>
+<p class="text-center h3">
+    @Html.ActionLink("Добавить сотрудника", "CreateEmplo")
+</p>
+<br />
+<table class="table h4" border="10">
+    <tr>
+
+        <th>
+            Имя
+        </th>
+        <th>
+            Фамилия
+        </th>
+        <th>
+            Образование
+        </th>
+        <th>
+            Должность
+        </th>
+        <th>
+            Специальность
+        </th>
+        <th>
+            Отдел
+        </th>
+        <th>
+            ЗП
+        </th>
+        <th>
+            Штраф
+        </th>
+        <th>
+            Действие
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Surname)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Education.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Specialty.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Department.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Salary.Amount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Penalties.Amount)
+    </td>
+    <td>
+        @Html.ActionLink("Изменить", "EditEmplo", new { id = item.Id })
+        @Html.ActionLink("Удалить", "DeleteEmplo", new { id = item.Id })
+    </td>
+</tr>
+    }
+
+
+</table>
+
+
+

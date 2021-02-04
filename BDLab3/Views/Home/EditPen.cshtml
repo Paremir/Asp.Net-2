@@ -1,0 +1,25 @@
+﻿@model BDLab3.Models.Penaltie
+
+@{
+    ViewBag.Title = "EditDep";
+}
+
+<div class="h4" align="center">
+    @using (Html.BeginForm())
+    {
+        <h2>Изменить штраф</h2>
+        <fieldset>
+            <br />
+            @Html.HiddenFor(m => m.Id)
+            <p>
+                @Html.LabelFor(m => m.Amount, "Размер штрафа: ")
+                @Html.EditorFor(m => m.Amount)
+                <input type="submit" value="Изменить" />
+                <br />
+                <br />
+        </fieldset>
+    }
+    <br />
+    @Html.ActionLink("Вернуться назад", "Penalties")
+</div>
+

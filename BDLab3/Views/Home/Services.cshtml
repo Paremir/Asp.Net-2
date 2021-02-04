@@ -1,0 +1,19 @@
+﻿@model List<BDLab3.Models.Employee>
+
+@{
+    ViewBag.Title = "Services";
+}
+
+<h2>Сервисы:</h2>
+<br />
+<div class="h4">
+    <p><b>Сумма ЗП сотрудников:</b> @Model.Sum(item => item.Position.Salary.Amount).ToString()   </p>
+    <br />
+    <p><b>Минимальная ЗП среди сотрудников:</b>  @Model.Min(item => item.Position.Salary.Amount).ToString() </p>
+    <br />
+    <p><b>Максимальная ЗП среди сотрудников: </b> @Model.Max(item => item.Position.Salary.Amount).ToString() </p>
+    <br />
+    <p><b>Средняя ЗП сотрудников:</b>  @Model.Average(item => item.Position.Salary.Amount).ToString() </p>
+    <br />
+    <p> <b>Сумма штрафов сотрудников:</b>   @Model.Sum(item => item.Penalties.Amount).ToString()</p>
+</div>

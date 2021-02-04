@@ -1,0 +1,32 @@
+﻿@model BDLab3.Models.Position
+
+@{
+    ViewBag.Title = "CreatePos";
+}
+
+<div class="h4" align=" center">
+    <font>
+        @using (Html.BeginForm())
+        {
+            <h2>Добавить должность</h2>
+            <fieldset>
+                @Html.LabelFor(model => model.Name, "Должность: ")
+                @Html.EditorFor(model => model.Name)
+                <br />
+                <br />
+                @Html.LabelFor(model => model.Name, "Зарплата: ")
+                @Html.DropDownListFor(model => model.SalaryId, ViewBag.Salaries as SelectList);
+                <br />
+                <br />
+                <input type="submit" value=" Добавить " />
+                <br />
+                <br />
+            </fieldset>
+        }
+    </font>
+    <br />
+    <br />
+    @Html.ActionLink("Вернуться назад", "Pozitions")
+
+</div>
+

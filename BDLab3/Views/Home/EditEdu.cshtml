@@ -1,0 +1,26 @@
+﻿@model BDLab3.Models.Education
+
+@{
+    ViewBag.Title = "EditEdu";
+}
+
+
+<div class="h4" align="center">
+    @using (Html.BeginForm())
+    {
+        <h2>Изменить образование</h2>
+        <fieldset>
+            <br />
+            @Html.HiddenFor(m => m.Id)
+            <p>
+                @Html.LabelFor(m => m.Name, "Категория образования: ")
+                @Html.EditorFor(m => m.Name)
+                <input type="submit" value="Изменить" />
+                <br />
+                <br />
+        </fieldset>
+    }
+    <br />
+    @Html.ActionLink("Вернуться назад", "Educations")
+</div>
+

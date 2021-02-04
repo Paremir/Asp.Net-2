@@ -1,0 +1,398 @@
+﻿@model List<BDLab3.Models.Employee>
+@{
+    ViewBag.Title = "Search";
+    int zp = ViewBag.Zp;
+    int penalt = ViewBag.Penalt;
+    var zplist = Model.Where(item => item.Position.Salary.Amount == zp);
+    var penaltlist = Model.Where(item => item.Penalties.Amount > penalt);
+    var education = ViewBag.VEdu;
+    var edulist = Model.Where(item => item.Education.Name == education);
+    var spec = ViewBag.VSpec;
+    var speclist = Model.Where(item => item.Specialty.Name == spec);
+    var pos = ViewBag.VPos;
+    var poslist = Model.Where(item => item.Position.Name == pos);
+
+}
+
+<h2>Поиск:</h2>
+<br />
+<div class="h4">
+    @if (zp == 0)
+    {
+        using (Html.BeginForm("Search", "Home"))
+        {<p> C определенной зп:  @Html.TextBox("zp", "")  <input type="submit" value="Найти" /></p> }
+}
+else
+{
+    using (Html.BeginForm("Search", "Home"))
+    {
+        <p> C определенной зп:  @Html.TextBox("zp", zp.ToString())  <input type="submit" value="Найти" /></p>
+    }
+    <table class="table" border="10">
+        <tr>
+
+            <th>
+                Имя
+            </th>
+            <th>
+                Фамилия
+            </th>
+            <th>
+                Образование
+            </th>
+            <th>
+                Должность
+            </th>
+            <th>
+                Специальность
+            </th>
+            <th>
+                Отдел
+            </th>
+            <th>
+                ЗП
+            </th>
+            <th>
+                Штраф
+            </th>
+        </tr>
+
+        @foreach (var item in zplist)
+        {
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Education.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Specialty.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position.Salary.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Penalties.Amount)
+        </td>
+    </tr>
+        }
+
+
+    </table>
+}
+
+<br />
+    @if (penalt == 0)
+    {
+        using (Html.BeginForm("Search", "Home"))
+        {<p> C штрафом более:  @Html.TextBox("penalt", "")  <input type="submit" value="Найти" /></p> }
+}
+else
+{
+    using (Html.BeginForm("Search", "Home"))
+    {
+        <p> C штрафом более:  @Html.TextBox("penalt", penalt.ToString())  <input type="submit" value="Найти" /></p>
+    }
+    <table class="table" border="10">
+        <tr>
+
+            <th>
+                Имя
+            </th>
+            <th>
+                Фамилия
+            </th>
+            <th>
+                Образование
+            </th>
+            <th>
+                Должность
+            </th>
+            <th>
+                Специальность
+            </th>
+            <th>
+                Отдел
+            </th>
+            <th>
+                ЗП
+            </th>
+            <th>
+                Штраф
+            </th>
+        </tr>
+
+        @foreach (var item in penaltlist)
+        {
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Education.Name)
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position.Name)
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Specialty.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position.Salary.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Penalties.Amount)
+
+        </td>
+    </tr>
+        }
+
+
+    </table>
+}
+
+<br />
+    @if (education == null)
+    {
+        using (Html.BeginForm("Search", "Home"))
+        {<p>C образованием: @Html.DropDownList("education", ViewBag.Edu as SelectList) <input type="submit" value="Найти" /> </p>}
+}
+else
+{
+    using (Html.BeginForm("Search", "Home"))
+    {<p>C образованием: @Html.DropDownList("education", ViewBag.Edu as SelectList) <input type="submit" value="Найти" /> </p>}
+<table class="table" border="10">
+    <tr>
+
+        <th>
+            Имя
+        </th>
+        <th>
+            Фамилия
+        </th>
+        <th>
+            Образование
+        </th>
+        <th>
+            Должность
+        </th>
+        <th>
+            Специальность
+        </th>
+        <th>
+            Отдел
+        </th>
+        <th>
+            ЗП
+        </th>
+        <th>
+            Штраф
+        </th>
+    </tr>
+
+    @foreach (var item in edulist)
+    {
+<tr>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Surname)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Education.Name)
+
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Name)
+
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Specialty.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Department.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Salary.Amount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Penalties.Amount)
+
+    </td>
+</tr>
+    }
+
+
+</table>
+}
+
+<br />
+    @if (spec == null)
+    {
+        using (Html.BeginForm("Search", "Home"))
+        {<p>C специальностью: @Html.DropDownList("spec", ViewBag.Spec as SelectList) <input type="submit" value="Найти" /> </p>}
+}
+else
+{
+    using (Html.BeginForm("Search", "Home"))
+    {<p>C специальностью: @Html.DropDownList("spec", ViewBag.Spec as SelectList) <input type="submit" value="Найти" /> </p>}
+<table class="table" border="10">
+    <tr>
+
+        <th>
+            Имя
+        </th>
+        <th>
+            Фамилия
+        </th>
+        <th>
+            Образование
+        </th>
+        <th>
+            Должность
+        </th>
+        <th>
+            Специальность
+        </th>
+        <th>
+            Отдел
+        </th>
+        <th>
+            ЗП
+        </th>
+        <th>
+            Штраф
+        </th>
+    </tr>
+
+    @foreach (var item in speclist)
+    {
+<tr>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Surname)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Education.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Specialty.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Department.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Salary.Amount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Penalties.Amount)
+    </td>
+</tr>
+    }
+
+
+</table>
+}
+<br />
+    @if (pos == null)
+    {
+        using (Html.BeginForm("Search", "Home"))
+        {<p>C должностью: @Html.DropDownList("pos", ViewBag.Pos as SelectList) <input type="submit" value="Найти" /> </p>}
+}
+else
+{
+    using (Html.BeginForm("Search", "Home"))
+    {<p>C должностью: @Html.DropDownList("pos", ViewBag.Pos as SelectList) <input type="submit" value="Найти" /> </p>}
+<table class="table" border="10">
+    <tr>
+
+        <th>
+            Имя
+        </th>
+        <th>
+            Фамилия
+        </th>
+        <th>
+            Образование
+        </th>
+        <th>
+            Должность
+        </th>
+        <th>
+            Специальность
+        </th>
+        <th>
+            Отдел
+        </th>
+        <th>
+            ЗП
+        </th>
+        <th>
+            Штраф
+        </th>
+    </tr>
+
+    @foreach (var item in poslist)
+    {
+<tr>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Surname)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Education.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Specialty.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Department.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Position.Salary.Amount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Penalties.Amount)
+    </td>
+</tr>
+    }
+
+
+</table>
+}
+
+</div>

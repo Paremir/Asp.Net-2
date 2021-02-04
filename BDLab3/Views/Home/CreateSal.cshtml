@@ -1,0 +1,27 @@
+﻿@model BDLab3.Models.Penaltie
+
+@{
+    ViewBag.Title = "Создание зарплаты";
+}
+<div class="h4" align=" center">
+    <font>
+        @using (Html.BeginForm())
+        {
+            <h2>Создание зарплаты</h2>
+            <br />
+            <fieldset>
+                @Html.LabelFor(model => model.Amount, "Размер зарплаты: ")
+                @Html.EditorFor(model => model.Amount)
+                <br />
+                <br />
+                <input type="submit" value=" Добавить " />
+                <br />
+                <br />
+            </fieldset>
+        }
+    </font>
+    <br />
+    @Html.ActionLink("Вернуться назад", "Salaries")
+</div>
+
+

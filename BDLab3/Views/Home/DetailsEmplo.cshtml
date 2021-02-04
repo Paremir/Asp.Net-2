@@ -1,0 +1,45 @@
+﻿@model BDLab3.Models.Employee
+
+@{
+    ViewBag.Title = "DetailsEmplo";
+}
+
+<h2>Информация о сотруднике:</h2>
+<br />
+<div class="h4">
+
+
+    @Html.HiddenFor(m => m.Id)
+    @Html.LabelFor(model => model.Name, "Имя: ")
+    @Html.DisplayTextFor(model => model.Name)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Surname, "Фамилия: ")
+    @Html.DisplayTextFor(model => model.Surname)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Department, "Отдел: ")
+    @Html.DisplayTextFor(model => model.Department.Name)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Education, "Образование: ")
+    @Html.DisplayTextFor(model => model.Education.Name)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Position, "Должность:")
+    @Html.DisplayTextFor(model => model.Position.Name)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Specialty, "Специльность: ")
+    @Html.DisplayTextFor(model => model.Specialty.Name)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Name, "Штраф: ")
+    @Html.DisplayTextFor(model => model.Penalties.Amount)
+    <br />
+    <br />
+
+
+</div>
+</table>
+<p class="h4">@Html.ActionLink("Вернуться", "WantKnow")</p>

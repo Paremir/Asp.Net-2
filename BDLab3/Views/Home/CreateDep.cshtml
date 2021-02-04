@@ -1,0 +1,26 @@
+﻿@model BDLab3.Models.Department
+
+@{
+    ViewBag.Title = "Создание отдела";
+}
+<div class="h4" align=" center">
+    <font >
+        @using (Html.BeginForm())
+        {
+        <h2>Создание отдела</h2>
+        <br />  
+            <fieldset>
+                @Html.LabelFor(model => model.Name, "Название отдела: ")
+                @Html.EditorFor(model => model.Name)
+                <br />
+                <br />
+                <input type="submit" value=" Добавить " />
+                <br />
+                <br />
+            </fieldset>
+        }
+    </font>
+    <br />
+        @Html.ActionLink("Вернуться назад", "Departments")
+</div>
+

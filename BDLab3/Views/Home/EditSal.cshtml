@@ -1,0 +1,25 @@
+﻿@model BDLab3.Models.Salarie
+
+@{
+    ViewBag.Title = "EditSal";
+}
+
+<div class="h4" align="center">
+    @using (Html.BeginForm())
+    {
+        <h2>Изменить зарплату</h2>
+        <fieldset>
+            <br />
+            @Html.HiddenFor(m => m.Id)
+            <p>
+                @Html.LabelFor(m => m.Amount, "Размер зарплаты: ")
+                @Html.EditorFor(m => m.Amount)
+                <input type="submit" value="Изменить" />
+                <br />
+                <br />
+        </fieldset>
+    }
+    <br />
+    @Html.ActionLink("Вернуться назад", "Salaries")
+</div>
+

@@ -1,0 +1,32 @@
+﻿@model BDLab3.Models.Position
+
+@{
+    ViewBag.Title = "EditPos";
+}
+<h2>Изменить должность</h2>
+<div class="h4" align="center">
+    @using (Html.BeginForm())
+    {
+
+        <fieldset>
+
+            @Html.HiddenFor(m => m.Id)
+            <p>
+                @Html.LabelFor(m => m.Name, "Название должности: ")
+                @Html.EditorFor(m => m.Name)
+                <br />
+                <br />
+                @Html.LabelFor(model => model.Name, "Зарплата: ")
+                @Html.DropDownListFor(model => model.SalaryId, ViewBag.Salaries as SelectList);
+                <br />
+                <br />
+                <input type="submit" value="Изменить" />
+
+        </fieldset>
+    }
+
+<br />
+<br />
+    @Html.ActionLink("Вернуться назад", "Pozitions")
+</div>
+

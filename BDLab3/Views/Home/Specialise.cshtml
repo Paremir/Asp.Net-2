@@ -1,0 +1,44 @@
+﻿@model List<BDLab3.Models.Specialty>
+
+<h2>Специальности:</h2>
+<p class="text-center h3">
+    @Html.ActionLink("Добавить специальность", "CreateSpec")
+</p>
+<br />
+<table class="table  table-bordered text-center >
+
+
+    @foreach (var item in Model)
+    {
+        <tr class="">
+
+            <td class="h4" bgcolor="#dcdcdc">
+                <b> @Html.DisplayFor(modelItem => item.Name)</b>
+            </td>
+            <td bgcolor="#dcdcdc">
+                <b>
+                    @Html.ActionLink("Изменить", "EditSpec", new { id = item.Id }) |
+                    @Html.ActionLink("Удалить", "DeleteSpec", new { id = item.Id })
+                </b>
+            </td>
+            @foreach (var s in item.Employees)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => s.Name)
+                    @Html.DisplayFor(modelItem => s.Surname)
+                </td>
+                <td>
+
+                    @Html.ActionLink("Изменить", "EditEmplo", new { id = s.Id }) |
+                    @Html.ActionLink("Подробно", "DetailsEmplo", new { id = s.Id }) |
+                    @Html.ActionLink("Удалить", "DeleteEmplo", new { id = s.Id })
+
+                </td>
+            </tr>
+        }
+            </tr>
+        }
+
+</table>
+<p class="h4">@Html.ActionLink("Вернуться", "WantKnow")</p>

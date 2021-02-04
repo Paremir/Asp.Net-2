@@ -1,0 +1,50 @@
+﻿@model BDLab3.Models.Employee
+
+@{
+    ViewBag.Title = "CreateEmplo";
+}
+
+    <h2>Добавление сотрудника:</h2>
+<div class="h4" >
+    <br />
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            @Html.LabelFor(model => model.Name, "Имя: ")
+            @Html.EditorFor(model => model.Name)
+            <br />
+            <br />
+            @Html.LabelFor(model => model.Surname, "Фамилия: ")
+            @Html.EditorFor(model => model.Surname)
+            <br />
+            <br />
+            @Html.LabelFor(model => model.Department, "Отдел: ")
+            @Html.DropDownListFor(model => model.DepartmentId, ViewBag.Dep as SelectList)
+            <br />
+            <br />
+            @Html.LabelFor(model => model.Education, "Образование: ")
+            @Html.DropDownListFor(model => model.EducationId, ViewBag.Edu as SelectList)
+            <br />
+            <br />
+            @Html.LabelFor(model => model.Position, "Должность:")
+            @Html.DropDownListFor(model => model.PositionId, ViewBag.Pos as SelectList)
+            <br />
+            <br />
+            @Html.LabelFor(model => model.Specialty, "Специльность: ")
+            @Html.DropDownListFor(model => model.SpecialtyId, ViewBag.Spec as SelectList)
+            <br />
+            <br />
+            @Html.LabelFor(model => model.Name, "Штраф: ")
+            @Html.DropDownListFor(model => model.PenaltiesId, ViewBag.Pen as SelectList)
+            <br />
+            <br />
+            <input type="submit" value="Добавить" />
+            <br />
+            <br />
+        </fieldset>
+    }
+
+
+</div>
+</table>
+<p class="h4">@Html.ActionLink("Вернуться", "Employee")</p>
