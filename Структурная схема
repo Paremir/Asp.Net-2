@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T09:21:37.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_fEk1PKoI0XbOXVicfY8" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-08T10:50:28.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Osgejs1fLMyOoMFLg4S6" version="21.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1602" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="N5Tna-ov4AHPCv0plKmC-2" value="Интерфейс для заявителя" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="465" y="100" width="120" height="100" as="geometry" />
+          <mxGeometry x="439.5" y="100" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="N5Tna-ov4AHPCv0plKmC-3" value="Интерфейс для гос. работников проекта" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="990" y="291.25" width="120" height="117.5" as="geometry" />
+          <mxGeometry x="920" y="280" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="N5Tna-ov4AHPCv0plKmC-7" value="Центральная система" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="446.25" y="297.5" width="157.5" height="110" as="geometry" />
+          <mxGeometry x="439.5" y="281" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="N5Tna-ov4AHPCv0plKmC-8" value="Проект" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="710" y="300" width="120" height="100" as="geometry" />
+          <mxGeometry x="680" y="280" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="N5Tna-ov4AHPCv0plKmC-9" value="База Данных Проекта" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="710" y="465" width="120" height="80" as="geometry" />
+          <mxGeometry x="680" y="472.5" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="N5Tna-ov4AHPCv0plKmC-10" value="База Данных Центральной Система" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="452.5" y="472.5" width="145" height="90" as="geometry" />
+          <mxGeometry x="440" y="472.5" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="N5Tna-ov4AHPCv0plKmC-11" value="Интерфейс работников Центральной системы" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="150" y="285" width="170" height="135" as="geometry" />
+          <mxGeometry x="190" y="280" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="N5Tna-ov4AHPCv0plKmC-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="N5Tna-ov4AHPCv0plKmC-8" target="N5Tna-ov4AHPCv0plKmC-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
