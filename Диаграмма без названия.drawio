@@ -1,9 +1,144 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T18:14:52.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.5" etag="O70D6ZrQ3BrrZGkcmRAy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-02T19:37:31.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3xHosv0_peP05ugM3BxF" version="21.1.5" type="github">
   <diagram name="Страница 1" id="IM1O5l8puq6AkNADgdny">
-    <mxGraphModel>
+    <mxGraphModel dx="1362" dy="517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-1" target="15-6eLY7Y1xTpjviWE6E-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-2" target="15-6eLY7Y1xTpjviWE6E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-2" value="Сотрудник" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-3" target="15-6eLY7Y1xTpjviWE6E-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-3" value="Авторизация в системе" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-4" target="15-6eLY7Y1xTpjviWE6E-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-4" value="Создание&lt;br&gt;&amp;nbsp;заявление" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-5" target="15-6eLY7Y1xTpjviWE6E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-5" value="Заполнение формы заявления" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-6" target="15-6eLY7Y1xTpjviWE6E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-6" value="Добавление сопроводительных документов к заявлению" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-7" target="15-6eLY7Y1xTpjviWE6E-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-7" target="15-6eLY7Y1xTpjviWE6E-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-7" target="15-6eLY7Y1xTpjviWE6E-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-7" value="Отправка &lt;br&gt;заявления в центральную систему" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-9" target="15-6eLY7Y1xTpjviWE6E-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-9" value="Оплата подачи заявления" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-10" value="Сохранения заявления в БД центральной системы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-11" target="15-6eLY7Y1xTpjviWE6E-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-11" target="15-6eLY7Y1xTpjviWE6E-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-11" target="15-6eLY7Y1xTpjviWE6E-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-11" value="Отправка заявления в гос. структуру" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-12" target="15-6eLY7Y1xTpjviWE6E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-12" value="Отображение заявления&lt;br&gt;&amp;nbsp;в системе" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-14" value="Сохранения заявления в БД гос. структуры" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-15" target="15-6eLY7Y1xTpjviWE6E-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-15" value="Открытие&lt;br&gt;&amp;nbsp;заявления" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-16" target="15-6eLY7Y1xTpjviWE6E-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-16" value="Анализ и просмотр заявления" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-17" target="15-6eLY7Y1xTpjviWE6E-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-17" value="Решение о&lt;br&gt;заявлении" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-18" target="15-6eLY7Y1xTpjviWE6E-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-18" value="Отправка решения&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-19" target="15-6eLY7Y1xTpjviWE6E-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-19" value="Отображение заявления в личном кабинете" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-20" target="15-6eLY7Y1xTpjviWE6E-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-20" value="Регистрация заявления &lt;br&gt;в личном &lt;br&gt;кабинете" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-22" target="15-6eLY7Y1xTpjviWE6E-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-22" value="Авторизация в системе" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
