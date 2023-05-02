@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T19:44:34.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2m0PXc-cIPpOEsBivKqM" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-02T19:57:31.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="X3yzC8oiCIxKRK-Prx29" version="21.1.5" type="github">
   <diagram name="Страница 1" id="IM1O5l8puq6AkNADgdny">
     <mxGraphModel dx="1362" dy="517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="15-6eLY7Y1xTpjviWE6E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-6" target="15-6eLY7Y1xTpjviWE6E-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="15-6eLY7Y1xTpjviWE6E-6" value="Добавление сопроводительных документов к заявлению" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-6" value="Загрузка &lt;br&gt;документов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="15-6eLY7Y1xTpjviWE6E-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-7" target="15-6eLY7Y1xTpjviWE6E-10">
@@ -97,7 +97,7 @@
         <mxCell id="15-6eLY7Y1xTpjviWE6E-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-15" target="15-6eLY7Y1xTpjviWE6E-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="15-6eLY7Y1xTpjviWE6E-15" value="Открытие&lt;br&gt;&amp;nbsp;заявления" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="15-6eLY7Y1xTpjviWE6E-15" value="Подпись решения" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="15-6eLY7Y1xTpjviWE6E-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15-6eLY7Y1xTpjviWE6E-16" target="15-6eLY7Y1xTpjviWE6E-17">
