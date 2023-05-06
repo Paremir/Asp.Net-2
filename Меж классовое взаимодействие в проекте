@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T12:57:29.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="O6-tGtJCQMOSs3XqEfH9" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T13:03:07.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2bo7nqel0Yi6eUr84s_W" version="21.2.9" type="github">
   <diagram name="Страница 1" id="LgSMEN_odJo8wFDxzx8w">
     <mxGraphModel dx="1362" dy="517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -16,55 +16,55 @@
         <mxCell id="gUn_zHrejtGPgR1T5a9r-4" value="ZEMA API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="10" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-5" value="DataExchange&lt;br&gt;Service&lt;br&gt;&amp;nbsp;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-5" value="DataExchange&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="50" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-6" value="Upstream &lt;br&gt;Service &lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-6" value="Upstream &lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="50" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-7" value="Control &lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-7" value="Control &lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="120" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-8" value="Scheduler&lt;br&gt;Service &lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-8" value="Scheduler&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-9" value="PDF&lt;br&gt;Service &lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-9" value="PDF&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-12" value="ModelValidation&lt;br&gt;Service&lt;br&gt;&amp;nbsp;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-12" value="ModelValidation&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-13" value="Setting&lt;br&gt;Service &lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-13" value="Setting&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUn_zHrejtGPgR1T5a9r-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="400" width="660" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-15" value="Auth&lt;br&gt;Service &lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-15" value="Auth&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="414" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUn_zHrejtGPgR1T5a9r-16" value="Dotgov framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="707.5" y="370" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-17" value="DataExchange&lt;br&gt;Service&amp;nbsp;&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-17" value="DataExchange&lt;br&gt;Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="414" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-18" value="External&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-18" value="External&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="414" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-19" value="Log&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-19" value="Log&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="414" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-20" value="Notify&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-20" value="Notify&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="495" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-21" value="Pay&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-21" value="Pay&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="495" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-22" value="QrCode&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-22" value="QrCode&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="495" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-23" value="E-Sign&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-23" value="E-Sign&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="495" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUn_zHrejtGPgR1T5a9r-24" value="Azure&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -76,19 +76,19 @@
         <mxCell id="gUn_zHrejtGPgR1T5a9r-26" value="PowerBI&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-27" value="DataViewer&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-27" value="DataViewer&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUn_zHrejtGPgR1T5a9r-28" value="Explorer&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-29" value="Kernel&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-29" value="Kernel&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-30" value="PowerShell&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-30" value="PowerShell&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-33" value="Admin&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-33" value="Admin&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUn_zHrejtGPgR1T5a9r-37" value="Explorer&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -97,7 +97,7 @@
         <mxCell id="gUn_zHrejtGPgR1T5a9r-38" value="Azure&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUn_zHrejtGPgR1T5a9r-42" value="Explorer&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUn_zHrejtGPgR1T5a9r-42" value="Explorer&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUn_zHrejtGPgR1T5a9r-43" value="Azure&lt;br&gt;Service&lt;br&gt;Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
